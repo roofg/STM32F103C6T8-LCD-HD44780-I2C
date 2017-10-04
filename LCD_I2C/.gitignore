@@ -1,4 +1,5 @@
 /Debug/
+/Release/
 .settings/
 LCD_I2C Debug.cfg
 LCD_I2C.ioc
