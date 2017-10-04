@@ -4,4 +4,6 @@
 LCD_I2C Debug.cfg
 LCD_I2C.ioc
 LCD_I2C.xml
-STM32F103C6Tx_FLASH.ld
+.cproject
+.mxproject
+.project
