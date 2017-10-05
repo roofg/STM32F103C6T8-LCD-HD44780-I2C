@@ -81,8 +81,6 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-	//test for github ssh
-
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
