@@ -111,14 +111,22 @@ int main(void)
   	//show LCD id on screen
   	lcd_detect(&hi2c1);
 
+  	//fill in i2c address from detection here
   	uint8_t testaddress = 0x4E;
+
   	//initialize LCD
   	lcd_init(&hi2c1,testaddress);
+
+  	// input LCD format e.g: 16x2LCD = 2 rows, 16 figures per line
   	lcd_setSize(2,16);
 
   	//testprint on LCD and set cursor start position
-  	lcd_print2("Knuti",1,6);
+  	lcd_print2("STM32F103C6tx ",0,0);
+  	lcd_print2("I2C-LCD 16x2",0,1);
 
+  	HAL_Delay(3000);
+
+  	/*
 
    	HAL_Delay(1000); //1s delay to let lcd start up
    	//create data to set
@@ -159,6 +167,7 @@ int main(void)
 
    	//sprintf (str, "Temp =%s%d.%02d\ntest", tmpSign, tmpInt1, tmpInt2);
 
+	*/
 
    	lcd_print("Schaaaatz",0,4);
 
