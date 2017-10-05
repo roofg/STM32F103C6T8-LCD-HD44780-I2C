@@ -7,3 +7,6 @@ LCD_I2C.xml
 .cproject
 .mxproject
 .project
+
+# hide config files with personal data
+.*
