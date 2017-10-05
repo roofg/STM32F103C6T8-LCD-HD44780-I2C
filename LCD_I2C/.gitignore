@@ -9,4 +9,4 @@ LCD_I2C.xml
 .project
 
 # hide config files with personal data
-.*
+# .*
